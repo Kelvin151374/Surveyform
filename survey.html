@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Survey Form</h1>
+        <p>User stories survey form</p>
+        <form>
+           <div class="row">
+            <div class="col-1">
+                <label for="name">Name</label>
+            </div>
+            <div class="col-2">
+                <input type="text" id="name">
+            </div>
+           </div>
+           
+           <div class="row">
+            <div class="col-1">
+                <label for="email">E-mail</label>
+            </div>
+           <div class="col-2">
+            <input type="email" id="email">
+           </div>
+           </div>
+
+           <div class="row">
+            <div class="col-1">
+                <label for="work">Work Experience</label>
+            </div>
+           <div class="col-2">
+            <input type="text" id="work">
+           </div>
+           </div>
+
+           <div class="row">
+            <div class="col-1">
+                <label for="work">Are you comfortable in investing in real estate on platform without first investigating porperly</label>
+            </div>
+           <div class="col-2">
+            <select id="choice">
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+            </select>
+           </div>
+           </div>
+           
+           <div class="row">
+            <div class="col-1">
+                <label for="suggestions">Suggestion to build trusted platform</label>
+            </div>
+           <div class="col-2">
+            <textarea  id="suggestions"></textarea>
+           </div>
+           </div>
+            
+          <div class="row">
+            <div class="col-1">
+                <label for="yartii">You are ready to invest in</label>
+            </div>
+            <div class="col-2">
+                <input type="checkbox" id="re" name="yartii">
+            <label for="re">Real Estate</label>
+            <br>
+           <input type="checkbox" id="mf" name="yartii">
+           <label for="mf">Mututal Funds</label>
+           <br>
+           <input type="checkbox" id="cc" name="yartii">
+           <label for="cc">Crypto Currency</label>
+           <br>
+           <input type="checkbox" id="sb" name="yartii">
+           <label for="sb">Stocks & Bonds</label>
+            
+            </div>
+          </div>
+           <div >
+            <div class="col-1">
+                <label for="ayrffc">Are you ready for further contact</label>
+            </div>
+           <div class="col-2">
+            <input type="radio" id="yes" name="ayrffc">
+           <label for="yes">Yes</label>
+           <br>
+           <input type="radio" id="no" name="ayrffc">
+           <label for="no">No</label>
+           
+           </div>
+           </div>
+           
+           
+           <button>
+            Submit
+           </button>
+        </form>
+    </div>
+    <!-- <script>
+        console.log("HELLO WORLD");
+    </script> -->
+
+    <script src="script.js"></script>
+</body>
+</html>
